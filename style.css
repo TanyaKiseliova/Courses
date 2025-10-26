@@ -1,0 +1,138 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html, .wrapper{
+    width: 100%;
+    height: 100%;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+    width: 60%;
+
+  align-items: center;
+    background: orange;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+  
+}
+
+.l1, .l2, .l3, .l4, .l5{
+    display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.str {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px dashed rgb(107, 4, 4);
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+      width:  45%;
+    height: 50px;
+    background-color: rgb(243, 217, 144);
+    color: rgb(107, 4, 4);
+    border: 5px solid  rgb(107, 4, 4);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.number{
+       font-size: 20px;
+       font-weight: bold;
+     color: rgb(107, 4, 4);
+}
+
+.sumRes, .biggerRes, .customRes, .evenRes, .arephmeticalRes {
+    width:  45%;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arr, .actions{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+     color: rgb(107, 4, 4);
+}
+
+.actions::before{
+ content: "";
+      display: inline-block; 
+      width: 40px; 
+      height: 40px; 
+      background-image: url("https://cdn1.iconfinder.com/data/icons/growth-hacking-11/64/rinse-repeat-process-action-idea-512.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.arr::before{
+ content: "";
+      display: inline-block; 
+      width: 40px; 
+      height: 40px; 
+      background-image: url("https://cdn-icons-png.flaticon.com/512/3898/3898186.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.arr{
+    margin-top: 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.button {
+    background: #df6c62;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
